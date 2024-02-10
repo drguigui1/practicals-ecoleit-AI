@@ -135,7 +135,7 @@ class ConnectFour:
 
     def end_game(self) -> bool:
         '''
-        Tell of the game is finished or not
+        Tell if the game is finished or not
         '''
         if len(self.available()) == 0:
             return True
